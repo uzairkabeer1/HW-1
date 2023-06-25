@@ -15,24 +15,14 @@
         });
 
         function getCurrentSelection(event) {
-            // Code for processing the current selection goes here
-
-            // Get the text of the clicked link
             const linkText = event.target.textContent;
-
-            // Update the content of the <h1> tag with the link text
             const h1Element = document.querySelector('h1');
             h1Element.textContent = linkText;
-
-            // Update the content of the <title> tag with the link text
             document.title = linkText;
-
-            // Call the updateCurrentPage function
             updateCurrentPage(linkText);
         }
     </script>
     <style>
-        /* Make the navigation horizontal */
         nav ul {
             display: flex;
             justify-content: space-between;
@@ -40,18 +30,15 @@
             padding: 0;
         }
 
-        /* Get rid of the navigation list item markers */
         nav ul li {
             list-style-type: none;
         }
 
-        /* Give the navigation a background */
         nav {
             background-color: #333;
             padding: 10px;
         }
 
-        /* Style the navigation links */
         nav a {
             color: #fff;
             text-decoration: none;
@@ -59,12 +46,10 @@
             transition: color 0.3s ease;
         }
 
-        /* Change the color of navigation links on mouseover */
         nav a:hover {
             color: #ff6b6b;
         }
 
-        /* Change the "bullet points" of this entire list to checkmarks (✓) */
         ul {
             list-style-type: none;
             padding-left: 0;
@@ -74,13 +59,11 @@
             margin-right: 5px;
         }
 
-        /* Uppercase the first character of the content in the <h1> tag and the <a> tags */
         h1:first-letter,
         nav a:first-letter {
             text-transform: uppercase;
         }
 
-        /* Add some additional styling of your choice (not conflicting with other requests) */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
