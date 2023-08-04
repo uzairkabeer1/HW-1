@@ -65,6 +65,6 @@
 <tr><td> <em>Sub-Task 2: </em> Add a link to your pull request (hw branch to dev only)</td></tr>
 <tr><td> <a rel="noreferrer noopener" target="_blank" href="https://github.com/hpatel544/HW/pull/1">https://github.com/hpatel544/HW/pull/1</a> </td></tr>
 <tr><td> <em>Sub-Task 3: </em> Add a link to your solution html file from prod (again you can assume the url at this point)</td></tr>
-<tr><td> <a rel="noreferrer noopener" target="_blank" href="https://hwchallenge-prod.herokuapp.com/challenge.html">https://hwchallenge-prod.herokuapp.com/challenge.html</a> </td></tr>
+<tr><td> <a rel="noreferrer noopener" target="_blank" href="https://hp548-hwchallenge-prod-9eedc955e1b5.herokuapp.com/challenge.html">https://hwchallenge-prod.herokuapp.com/challenge.html</a> </td></tr>
 </table></td></tr>
 <table><tr><td><em>Grading Link: </em><a rel="noreferrer noopener" href="https://learn.ethereallab.app/homework/IT202-450-M23/it202-javascript-and-css-challenge/grade/hp548" target="_blank">Grading</a></td></tr></table>
